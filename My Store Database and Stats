@@ -1,0 +1,24 @@
+CREATE TABLE mystore (id INTEGER PRIMARY KEY, name TEXT, color TEXT, quantity INTEGER, price INTEGER);
+
+INSERT into mystore VALUES (1, "shirt", "yellow", 4,20);
+INSERT into mystore VALUES (2, "shirt", "red", 4, 25);
+INSERT into mystore VALUES (3, "shorts", "orange", 5, 30);
+INSERT into mystore VALUES (4, "socks", "black", 12, 5);
+INSERT into mystore VALUES (5, "dress","white", 3, 40);
+INSERT into mystore VALUES (6, "blouse", "floral", 1, 60);
+INSERT into mystore VALUES (7, "sweater", "tan", 3, 80);
+INSERT into mystore VALUES (8, "leggings", "black", 20, 10);
+SELECT * FROM mystore;
+SELECT * FROM mystore;
+INSERT into mystore VALUES (9, "headbands", "green", 2, 5);
+INSERT into mystore VALUES (10, "socks", "white", 10, 5);
+INSERT into mystore VALUES (11, "sweatpants", "purple", 3, 12);
+INSERT into mystore VALUES (12, "tanktop", "blue", 10, 6);
+INSERT into mystore VALUES (13, "t-shirt", "gray", 5, 8);
+INSERT into mystore VALUES (14, "skirt", "red", 2, 10);
+INSERT into mystore VALUES (15, "dress", "red", 1, 50);
+SELECT * FROM mystore;
+SELECT * FROM mystore;
+
+SELECT * from mystore 
+where price >10  ORDER BY quantity ASC 
